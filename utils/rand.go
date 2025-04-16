@@ -1,23 +1,30 @@
-package utils
-
 import (
-  "math/rand/v2"
+	"math/rand"
+	"time"
 )
 
 // Generate a random integer between range
-func RandomInt(min, max int) int {
-	return rand.IntN(max+1-min) + min
+func RandomInt(min int, max int) int {
+	rand.Seed(time.Now().UnixNano())
+	rand_int := rand.Intn(max-min+1) + min
+	return rand_int
 }
 
-const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// Return random string based on an integer (length)
+func RandomString(length int) string {
+	const charset = "abcdefghijklmnopqrstuvwxyz" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-// Return random string on n length
-func RandomString(n int) string {
-  b := make([]byte, n)
-  for i := range b {
-    b[i] = letterBytes[rand.IntN(len(letterBytes))]
-  }
+	var seededRand *rand.Rand = rand.New(rand.NewSource(time.Now().UnixNano()))
 
-  return string(b)
+	b := make([]byte, length)
+	for i := range b {
+		b[i] = charset[seededRand.Intn(len(charset))]
+	}
+
+	// Ensure the first character is not an integer
+	for b[0] >= '0' && b[0] <= '9' {
+		b[0] = charset[seededRand.Intn(len(charset))]
+	}
+
+	return string(b)
 }
-
