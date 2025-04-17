@@ -5,9 +5,9 @@ go 1.19
 require (
 	github.com/Binject/debug v0.0.0-20230508195519-26db73212a7a
 	github.com/Binject/go-donut v0.0.0-20220908180326-fcdcc35d591c
-	github.com/D3Ext/maldev v0.1.5
 	github.com/awgh/rawreader v0.0.0-20200626064944-56820a9c6da4
 	github.com/google/uuid v1.3.1
+	github.com/irony0egoist/maldev v0.0.0-20250417030044-744174075f37
 	golang.org/x/sys v0.15.0
 )
 

@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	mproc "github.com/D3Ext/maldev/src/process"
+	mproc "github.com/irony0egoist/maldev/src/process"
 )
 
 func AutoCheck() (bool, error) {

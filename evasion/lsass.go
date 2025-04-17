@@ -13,7 +13,7 @@ import (
 	"golang.org/x/sys/windows"
 	"unsafe"
 
-	mproc "github.com/D3Ext/maldev/src/process"
+	mproc "github.com/irony0egoist/maldev/src/process"
 )
 
 func DumpLsass(output_file string) error {
