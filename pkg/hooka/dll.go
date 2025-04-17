@@ -1,6 +1,6 @@
 package hooka
 
-import "github.com/D3Ext/Hooka/utils"
+import "github.com/irony0egoist/Hooka/utils"
 
 func ConvertDllToShellcode(dll_file string, dll_func string, func_args string) ([]byte, error) {
 	return utils.ConvertDllToShellcode(dll_file, dll_func, func_args)

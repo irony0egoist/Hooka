@@ -22,7 +22,7 @@ import (
 	"crypto/x509/pkix"
 	"encoding/pem"
 
-  "github.com/D3Ext/Hooka/utils"
+  "github.com/irony0egoist/Hooka/utils"
   "github.com/Binject/go-donut/donut"
 )
 

@@ -1,6 +1,6 @@
 package hooka
 
-import "github.com/D3Ext/Hooka/utils"
+import "github.com/irony0egoist/Hooka/utils"
 
 func GetShellcodeFromUrl(url string) ([]byte, error) {
 	return utils.GetShellcodeFromUrl(url)

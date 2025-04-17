@@ -3,7 +3,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/D3Ext/Hooka/pkg/hooka"
+  "github.com/irony0egoist/Hooka/pkg/hooka"
 )
 
 // this is an example of a program to dump the LSASS.EXE process using evasion techniques

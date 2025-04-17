@@ -1,7 +1,7 @@
 package hooka
 
 import (
-  sc_pkg "github.com/D3Ext/Hooka/shellcode"
+  sc_pkg "github.com/irony0egoist/Hooka/shellcode"
 )
 
 // use 0 as pid to self-inject

@@ -3,7 +3,7 @@ package main
 import (
 	"crypto/sha1"
 	"fmt"
-	"github.com/D3Ext/Hooka/pkg/hooka"
+	"github.com/irony0egoist/Hooka/pkg/hooka"
 	"log"
 )
 

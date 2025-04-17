@@ -1,8 +1,8 @@
 package hooka
 
 import (
-  "github.com/D3Ext/Hooka/utils"
-  "github.com/D3Ext/Hooka/evasion"
+  "github.com/irony0egoist/Hooka/utils"
+  "github.com/irony0egoist/Hooka/evasion"
   "golang.org/x/sys/windows"
 )
 

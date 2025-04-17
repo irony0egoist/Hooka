@@ -1,7 +1,7 @@
 package hooka
 
 import (
-	"github.com/D3Ext/Hooka/evasion"
+	"github.com/irony0egoist/Hooka/evasion"
 )
 
 func DetectHooks() ([]string, error) {

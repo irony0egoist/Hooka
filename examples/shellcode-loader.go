@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/D3Ext/Hooka/pkg/hooka"
+	"github.com/irony0egoist/Hooka/pkg/hooka"
 	maldev "github.com/D3Ext/maldev/src/crypto"
 	"log"
 )

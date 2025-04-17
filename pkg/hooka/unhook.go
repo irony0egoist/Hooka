@@ -1,6 +1,6 @@
 package hooka
 
-import "github.com/D3Ext/Hooka/evasion"
+import "github.com/irony0egoist/Hooka/evasion"
 
 func ClassicUnhook(funcnames []string, dllpath string) error {
 	return evasion.ClassicUnhook(funcnames, dllpath)

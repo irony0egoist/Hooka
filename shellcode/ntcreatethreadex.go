@@ -2,7 +2,7 @@ package shellcode
 
 import (
   "unsafe"
-  "github.com/D3Ext/Hooka/evasion"
+  "github.com/irony0egoist/Hooka/evasion"
   "golang.org/x/sys/windows"
 )
 
