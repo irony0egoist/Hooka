@@ -1,4 +1,4 @@
-module github.com/D3Ext/Hooka
+module github.com/irony0egoist/Hooka
 
 go 1.19
 
